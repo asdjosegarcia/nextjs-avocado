@@ -18,7 +18,7 @@ const HomePage = () => {
   return (
     <Layout>
       <KawaiiHeader />
-      <ProductList products={productList} />
+      <ProductList products={productList} /> {/* enviamos la lista de productos a el componente */} 
     </Layout>
   )
 }
